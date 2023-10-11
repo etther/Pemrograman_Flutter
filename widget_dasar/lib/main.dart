@@ -15,7 +15,23 @@ class MyApp extends StatelessWidget {
           title: Text("My Apps"),
         ),
         body: Center(
-          child: Text("HALO"),
+          child: Text(
+            "kjafklfjeifjiosjwaiojiawjdiowajdiawjdiowarjdoaiwjdoiawjdoiajwdoajdoiawjwaokowakowakoawkodkawokdawokdawodkwaokdawodoawkdoawkdoawkdowakdoawkdaowdoiawjdoiwajdoiawjdoawijdawoidjawoidjwaiodjawiojdawiojdaiowjdiaowj",
+            maxLines: 3,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                backgroundColor: Colors.black,
+                color: Colors.white,
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 2,
+                fontFamily: 'Tenorite',
+                decoration: TextDecoration.lineThrough,
+                decorationStyle: TextDecorationStyle.wavy,
+                decorationColor: Colors.amber,
+                decorationThickness: 4),
+          ),
         ),
       ),
     );
