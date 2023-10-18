@@ -15,15 +15,31 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-          child: Container(
-            width: 350,
-            height: 500,
-            color: Colors.amber,
-            child:
-                Image(fit: BoxFit.cover, image: AssetImage("images/Cat.jpeg")),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // Container untuk gambar
+              Container(
+                width: 350,
+                height: 500,
+                color: Colors.amber,
+                child: Image(
+                    fit: BoxFit.cover, image: AssetImage("images/Cat.jpeg")),
+              ),
+
+              // Container untuk teks
+              Container(
+                padding: EdgeInsets.all(10),
+                child: Text(
+                  "Bonjour.",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
+            ],
           ),
         ),
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
