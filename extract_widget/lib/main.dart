@@ -30,12 +30,12 @@ class MyApp extends StatelessWidget {
             ChatItem(
               imageUrl: "https://picsum.photos/id/62/200/300",
               title: "Arif",
-              subtitle: "W Sebenerny suka sama kausar",
+              subtitle: "W Sebenerny batman",
             ),
             ChatItem(
               imageUrl: "https://picsum.photos/id/52/200/300",
               title: "Japal",
-              subtitle: "Mau Di kocokin?",
+              subtitle: "Mau Di bawain?",
             ),
             ChatItem(
               imageUrl: "https://picsum.photos/id/626/200/300",
